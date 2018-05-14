@@ -1,0 +1,15 @@
+com\example\vertbuff\HelloWorldProto$HelloReply$Builder.class
+com\example\vertbuff\MainVerticle.class
+com\example\vertbuff\HelloWorldProto$HelloRequest$Builder.class
+com\example\vertbuff\HelloWorldProto$HelloRequest.class
+com\example\vertbuff\HelloRequest.class
+com\example\vertbuff\HelloWorldProto$1.class
+com\example\vertbuff\HelloWorldProto$HelloReply.class
+com\example\vertbuff\SpeakerVerticle$Counter.class
+com\example\vertbuff\SpeakerVerticle.class
+com\example\vertbuff\HelloWorldProto$HelloReplyOrBuilder.class
+com\example\vertbuff\HelloWorldProto$HelloRequestOrBuilder.class
+com\example\vertbuff\ListenerVerticle.class
+com\example\vertbuff\HelloWorldProto$HelloReply$1.class
+com\example\vertbuff\HelloWorldProto$HelloRequest$1.class
+com\example\vertbuff\HelloWorldProto.class
