@@ -60,29 +60,17 @@ public class ListenerVerticle extends AbstractVerticle {
     eb.consumer("news-feed", message -> {
 
     	try{
-//    	     All your I/O operations
-
 
             ByteString reserilaizedHelloSrt = ByteString.copyFromUtf8(message.body().toString());
             System.out.println(String.format("[Message], convert from string,   Rx  : %s", reserilaizedHelloSrt));
             com.example.vertbuff.HelloRequest newHelloObj = deserialize(reserilaizedHelloSrt);
             System.out.println(String.format("[Message], Deserialize back to object : name:%s", newHelloObj.get_name()));
 
-
-    	String str = message.body().toString();
-    	System.out.println("Received " + str);
-    	byte[] decoded = str.getBytes();
-    	//byte[] decoded = Base64.getDecoder().decode(str);
-
-    	String the_Name = HelloWorldProto.HelloRequest.parseFrom(decoded).getName();
-
-    	//com.google.protobuf.ByteString bstr = com.google.protobuf.ByteString.copyFrom(str.getBytes());
-    	//HelloWorldProto.HelloRequest hrProto = HelloWorldProto.HelloRequest.parseFrom(decoded);
-    	System.out.println("received decoded: " +the_Name);
-
-//    	System.out.println("Received news on consumer 1: ") +
-//    		HelloRequest.ParseFromString(	 message.body().toString() ).toString());
-
+            String str = message.body().toString();
+            System.out.println("Received " + str);
+            byte[] decoded = str.getBytes();
+            String the_Name = HelloWorldProto.HelloRequest.parseFrom(decoded).getName();
+            System.out.println("received decoded: " +the_Name);
 
     	}
     	catch(IOException ioe){

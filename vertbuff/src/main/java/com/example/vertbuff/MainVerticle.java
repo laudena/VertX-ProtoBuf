@@ -1,29 +1,15 @@
 package com.example.vertbuff;
 
 
-import io.netty.util.internal.shaded.org.jctools.queues.MessagePassingQueue.Consumer;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
-import io.vertx.core.Vertx;
-import io.vertx.core.VertxOptions;
-import io.vertx.core.eventbus.EventBus;
 
-/*
- * @author <a href="http://tfox.org">Tim Fox</a>
- */
 public class MainVerticle extends AbstractVerticle {
-
-  // Convenience method so you can run it in your IDE
-//  public static void main(String[] args) {
-//      System.out.println("main @ Main Verticle ");
-//
-//  }
-
 
   @Override
   public void start() throws Exception {
 
-	  System.out.println("MainVerticle verticle started !!!!!!");
+	  System.out.println("*****MainVerticle verticle started*****");
 	   SpeakerVerticle speakerVerticle = new SpeakerVerticle();
 	  vertx.deployVerticle(speakerVerticle);
 

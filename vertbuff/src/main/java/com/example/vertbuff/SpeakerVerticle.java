@@ -29,41 +29,16 @@ public class SpeakerVerticle  extends AbstractVerticle {
 
 		  String verticleID = "SpeakerVerticle";
 		  System.out.println("SpeakerVerticle verticle started !!!!!!");
-
 		  EventBus eb = vertx.eventBus();
+          com.example.vertbuff.HelloRequest helloObj = new com.example.vertbuff.HelloRequest("We Come In Peace!");
+          ByteString serHelloMsg = serialize(helloObj);
+          String strHelloSerialized = serHelloMsg.toStringUtf8();
+          eb.publish( "news-feed",  strHelloSerialized );
 
-	        // Send a message every second
-
-	        Random rand = new Random();
-	        Counter count = new Counter();
-//	        System.out.println("1");
-//
-//	        //vertx.setPeriodic(2000, v ->
-//            String msg = "Some news! (" + count.Next() + ")" ;
-//        	HelloWorldProto.HelloRequest hr = HelloWorldProto.HelloRequest.newBuilder().setName(msg).build();
-//        	System.out.println("2");
-//        	byte[] hr_Message = hr.toByteArray();//toByteArray();
-//        	System.out.println("3, " + hr_Message);
-//        	String the_Name = HelloWorldProto.HelloRequest.parseFrom(hr_Message).getName();
-//        	System.out.println("4");
-//        	eb.publish( "news-feed",  hr_Message.toString() );
-
-	    	//protocol buffer example
-
-              System.out.println("ProtoBuff Tester1");
-              com.example.vertbuff.HelloRequest helloObj = new com.example.vertbuff.HelloRequest("We Come In Peace!");
-              ByteString serHelloMsg = serialize(helloObj);
-
-              String strHelloSerialized = serHelloMsg.toStringUtf8();
-
-              eb.publish( "news-feed",  strHelloSerialized );
-
-
-
-              ByteString reserilaizedHelloSrt = ByteString.copyFromUtf8(strHelloSerialized);
-              System.out.println(String.format("[HelloRequest], Original object            : name:%s", helloObj.get_name()));
-              System.out.println(String.format("[HelloRequest], Serialize to byteString,   : %s", serHelloMsg));
-              System.out.println(String.format("[HelloRequest], convert to     String, Tx  : %s", strHelloSerialized));
+          ByteString reserilaizedHelloSrt = ByteString.copyFromUtf8(strHelloSerialized);
+          System.out.println(String.format("[HelloRequest], Original object            : name:%s", helloObj.get_name()));
+          System.out.println(String.format("[HelloRequest], Serialize to byteString,   : %s", serHelloMsg));
+          System.out.println(String.format("[HelloRequest], convert to     String, Tx  : %s", strHelloSerialized));
 
 
 
