@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_multiple_files = false;	
+option java_package = "test";
+option java_outer_classname = "TrackProto";
+package Track;
+
+message TrackReport {
+  int32 track_id = 1;
+  int64 height = 2;
+  string classification = 3;
+}
