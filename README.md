@@ -16,3 +16,9 @@ ___ListenerVerticle___ receives the message through vert.x's event-bus and conve
 
 
 Target folder holds executables compiled for Java8 on Win7. For Windows, batch files are available: _build-verticles.bat_ and _run-verticles.bat_
+
+
+UPDATE: 
+In addition to sending the "news-feed" channel, a more complex message is sent at the "comm-feed" channel of the event-bus.
+PersonProto defines ___CommunicationMessage___ class that it's object may hold either Person or Location message reports. 
+At the recepient side, _ListenerVerticle_ verticle, the communication-message is parsed to determine the inner message within it. ProtoBuff construct _HasPersonReport()_ and _HasLocationReport()_ properties for this purpose.
