@@ -17,13 +17,13 @@ public class MainVerticle extends AbstractVerticle {
 	  vertx.deployVerticle(listenerVerticle, res -> {
 		  if (res.succeeded()) {
 			    System.out.println("Deployment id is: " + res.result());
-			    vertx.undeploy(res.result(), res2 -> {
-			    	  if (res2.succeeded()) {
-			    	    System.out.println("Undeployed ok");
-			    	  } else {
-			    	    System.out.println("Undeploy failed!");
-			    	  }
-			    	});
+//			    vertx.undeploy(res.result(), res2 -> {
+//			    	  if (res2.succeeded()) {
+//			    	    System.out.println("Undeployed ok");
+//			    	  } else {
+//			    	    System.out.println("Undeploy failed!");
+//			    	  }
+//			    	});
 			  } else {
 			    System.out.println("Deployment failed!");
 			  }

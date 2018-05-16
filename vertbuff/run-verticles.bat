@@ -1,6 +1,6 @@
 echo off
-d:
+c:
 echo running...
-cd D:\arn\Lab\vertbuff\target
+cd C:\arn\GitHub\VertX-ProtoBuf\vertbuff\target
 java -jar vertbuff-1.0.0-SNAPSHOT-fat.jar
 

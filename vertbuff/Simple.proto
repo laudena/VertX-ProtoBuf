@@ -2,11 +2,26 @@ syntax = "proto3";
 
 option java_multiple_files = false;	
 option java_package = "test";
-option java_outer_classname = "TrackProto";
-package Track;
+option java_outer_classname = "PersonProto";
+package Person;
 
-message TrackReport {
-  int32 track_id = 1;
-  int64 height = 2;
-  string classification = 3;
+message PersonReport {
+  int32 person_id = 1;
+  int32 age = 2;
+  int64 height = 3;
+  string classification = 4;
+}
+
+message LocationReport {
+  int32 Location_id = 1;
+  int64 x = 2;
+  int32 Location_type = 3;
+}
+
+message CommunicationMessage{
+	int64 msgid = 1;
+	oneof  body {
+	PersonReport PersonReport = 2;
+	LocationReport LocationReport = 3;
+	}
 }

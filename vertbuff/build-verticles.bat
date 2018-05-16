@@ -1,6 +1,6 @@
 echo off
-d:
-cd D:\arn\Lab\vertbuff
+c:
+cd C:\arn\GitHub\VertX-ProtoBuf\vertbuff
 echo building...
 mvn install
 
