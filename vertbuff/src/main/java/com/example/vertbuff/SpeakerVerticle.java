@@ -49,7 +49,7 @@ public class SpeakerVerticle  extends AbstractVerticle {
 		  System.out.println(String.format("[Person], sent person object 	: id: %s, age: %s", p.get_person_id(), p.get_age()));
 
 		  //sending person data inside communication message;
-		  Person p2 = new com.example.vertbuff.Person(20, 45,20,"major");
+		  Person p2 = new com.example.vertbuff.Person(20, 45,22,"major");
 		  com.example.vertbuff.PersonProto.CommunicationMessage commMsg = getCommunicationMessage(p2);
 		  String strCommMessage = commMsg.toByteString().toStringUtf8();
 		  eb.publish( "comm-feed",  strCommMessage );

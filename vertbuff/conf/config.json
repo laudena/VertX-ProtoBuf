@@ -1,3 +1,19 @@
 {
-"author" : "lauden"
+"author" : "lauden",
+"verticles":[
+	{
+		"className": "com.example.vertbuff.SpeakerVerticle",
+		"publishing-list": [
+			"flowers.report",
+			"baskets.main"
+		]
+	},
+	{
+		"className": "com.example.vertbuff.ListenerVerticle",
+		"publishing-list": [
+			"roses.grower",
+			"lilies.grower"
+		]
+	}
+	]
 }
