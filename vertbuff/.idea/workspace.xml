@@ -11,12 +11,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -24,7 +36,7 @@
       <file leaf-file-name="SpeakerVerticle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/SpeakerVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="867">
               <caret line="62" column="199" selection-start-line="62" selection-start-column="140" selection-end-line="62" selection-end-column="199" />
             </state>
           </provider>
@@ -33,7 +45,7 @@
       <file leaf-file-name="AbstractVerticle.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/AbstractVerticle.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="493">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
@@ -42,7 +54,7 @@
       <file leaf-file-name="DeploymentManager.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/impl/DeploymentManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="7718">
               <caret line="498" selection-start-line="498" selection-end-line="498" />
             </state>
           </provider>
@@ -51,26 +63,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="340">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,139 +92,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/HelloRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonProto.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonProto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/PersonProto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-              <folding>
-                <element signature="e#4298#4299#0" expanded="true" />
-                <element signature="e#4328#4329#0" expanded="true" />
-                <element signature="e#4478#4479#0" expanded="true" />
-                <element signature="e#4503#4504#0" expanded="true" />
-                <element signature="e#4667#4668#0" expanded="true" />
-                <element signature="e#4695#4696#0" expanded="true" />
-                <element signature="e#12397#12398#0" expanded="true" />
-                <element signature="e#12446#12447#0" expanded="true" />
-                <element signature="e#13382#13383#0" expanded="true" />
-                <element signature="e#13486#13487#0" expanded="true" />
-                <element signature="e#14004#14005#0" expanded="true" />
-                <element signature="e#14055#14056#0" expanded="true" />
-                <element signature="e#15666#15667#0" expanded="true" />
-                <element signature="e#15714#15715#0" expanded="true" />
-                <element signature="e#17722#17723#0" expanded="true" />
-                <element signature="e#17751#17752#0" expanded="true" />
-                <element signature="e#18602#18603#0" expanded="true" />
-                <element signature="e#18636#18637#0" expanded="true" />
-                <element signature="e#19126#19127#0" expanded="true" />
-                <element signature="e#19155#19156#0" expanded="true" />
-                <element signature="e#19624#19625#0" expanded="true" />
-                <element signature="e#19656#19657#0" expanded="true" />
-                <element signature="e#22777#22778#0" expanded="true" />
-                <element signature="e#22814#22815#0" expanded="true" />
-                <element signature="e#22900#23270#0" expanded="true" />
-                <element signature="e#23269#23270#0" expanded="true" />
-                <element signature="e#23341#23342#0" expanded="true" />
-                <element signature="e#23368#23369#0" expanded="true" />
-                <element signature="e#23466#23467#0" expanded="true" />
-                <element signature="e#23493#23494#0" expanded="true" />
-                <element signature="e#23581#23582#0" expanded="true" />
-                <element signature="e#23618#23619#0" expanded="true" />
-                <element signature="e#24509#24510#0" expanded="true" />
-                <element signature="e#24537#24538#0" expanded="true" />
-                <element signature="e#24740#24741#0" expanded="true" />
-                <element signature="e#24779#24780#0" expanded="true" />
-                <element signature="e#26392#26393#0" expanded="true" />
-                <element signature="e#26494#26495#0" expanded="true" />
-                <element signature="e#27075#27076#0" expanded="true" />
-                <element signature="e#27107#27108#0" expanded="true" />
-                <element signature="e#27251#27252#0" expanded="true" />
-                <element signature="e#27274#27275#0" expanded="true" />
-                <element signature="e#27462#27463#0" expanded="true" />
-                <element signature="e#27496#27497#0" expanded="true" />
-                <element signature="e#33694#33695#0" expanded="true" />
-                <element signature="e#33743#33744#0" expanded="true" />
-                <element signature="e#34687#34688#0" expanded="true" />
-                <element signature="e#34793#34794#0" expanded="true" />
-                <element signature="e#35319#35320#0" expanded="true" />
-                <element signature="e#35370#35371#0" expanded="true" />
-                <element signature="e#36934#36935#0" expanded="true" />
-                <element signature="e#36982#36983#0" expanded="true" />
-                <element signature="e#38880#38881#0" expanded="true" />
-                <element signature="e#38909#38910#0" expanded="true" />
-                <element signature="e#39770#39771#0" expanded="true" />
-                <element signature="e#39806#39807#0" expanded="true" />
-                <element signature="e#40304#40305#0" expanded="true" />
-                <element signature="e#40331#40332#0" expanded="true" />
-                <element signature="e#40807#40808#0" expanded="true" />
-                <element signature="e#40845#40846#0" expanded="true" />
-                <element signature="e#42038#42039#0" expanded="true" />
-                <element signature="e#42075#42076#0" expanded="true" />
-                <element signature="e#42163#42539#0" expanded="true" />
-                <element signature="e#42538#42539#0" expanded="true" />
-                <element signature="e#42612#42613#0" expanded="true" />
-                <element signature="e#42639#42640#0" expanded="true" />
-                <element signature="e#42739#42740#0" expanded="true" />
-                <element signature="e#42766#42767#0" expanded="true" />
-                <element signature="e#42856#42857#0" expanded="true" />
-                <element signature="e#42893#42894#0" expanded="true" />
-                <element signature="e#44604#44605#0" expanded="true" />
-                <element signature="e#44632#44633#0" expanded="true" />
-                <element signature="e#44669#44670#0" expanded="true" />
-                <element signature="e#44694#44695#0" expanded="true" />
-                <element signature="e#44797#44798#0" expanded="true" />
-                <element signature="e#44836#44837#0" expanded="true" />
-                <element signature="e#48386#48387#0" expanded="true" />
-                <element signature="e#48422#48423#0" expanded="true" />
-                <element signature="e#48578#48579#0" expanded="true" />
-                <element signature="e#48619#48620#0" expanded="true" />
-                <element signature="e#48897#48898#0" expanded="true" />
-                <element signature="e#48932#48933#0" expanded="true" />
-                <element signature="e#49201#49202#0" expanded="true" />
-                <element signature="e#49228#49229#0" expanded="true" />
-                <element signature="e#49402#49403#0" expanded="true" />
-                <element signature="e#49437#49438#0" expanded="true" />
-                <element signature="e#50329#50330#0" expanded="true" />
-                <element signature="e#50364#50365#0" expanded="true" />
-                <element signature="e#58038#58039#0" expanded="true" />
-                <element signature="e#58087#58088#0" expanded="true" />
-                <element signature="e#59717#59718#0" expanded="true" />
-                <element signature="e#59768#59769#0" expanded="true" />
-                <element signature="e#61753#61754#0" expanded="true" />
-                <element signature="e#61801#61802#0" expanded="true" />
-                <element signature="e#63882#63883#0" expanded="true" />
-                <element signature="e#63911#63912#0" expanded="true" />
-                <element signature="e#65088#65089#0" expanded="true" />
-                <element signature="e#65119#65120#0" expanded="true" />
-                <element signature="e#65849#65850#0" expanded="true" />
-                <element signature="e#65888#65889#0" expanded="true" />
-                <element signature="e#70985#70986#0" expanded="true" />
-                <element signature="e#71024#71025#0" expanded="true" />
-                <element signature="e#76815#77209#0" expanded="true" />
-                <element signature="e#77208#77209#0" expanded="true" />
-                <element signature="e#77288#77289#0" expanded="true" />
-                <element signature="e#77315#77316#0" expanded="true" />
-                <element signature="e#77421#77422#0" expanded="true" />
-                <element signature="e#77448#77449#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldProto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/HelloWorldProto.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="155">
+              <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -238,7 +113,7 @@
       <file leaf-file-name="ListenerVerticle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/ListenerVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="2567">
               <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -261,8 +136,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getCommunicationMessage</find>
-      <find>test.</find>
       <find>deserializeComm</find>
+      <find>test.</find>
+      <find>config</find>
     </findStrings>
     <replaceStrings>
       <replace>com.example.vertbuff.</replace>
@@ -272,12 +148,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/PersonProto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/Location.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/SpeakerVerticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/ListenerVerticle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/conf/config.json" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
@@ -291,14 +176,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vertbuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="vertbuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertbuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertbuff" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vertbuff" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.JAR app">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -374,10 +264,34 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+    <configuration name="JAR app" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/vertbuff-1.0.0-SNAPSHOT-fat.jar" />
       <option name="WORKING_DIRECTORY" value="C:\arn\GitHub\VertX-ProtoBuf\vertbuff" />
       <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="mvn" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -401,6 +315,10 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JAR Application.JAR app" />
+      <item itemvalue="Maven.mvn" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -416,35 +334,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="25" width="1584" height="1000" extended-state="1" />
+    <frame x="260" y="25" width="1584" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49936223" weight="0.3295711" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5057398" side_tool="true" visible="true" weight="0.33860046" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4942602" visible="true" weight="0.33860046" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23979592" side_tool="true" visible="true" weight="0.33860046" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7602041" visible="true" weight="0.33860046" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49489796" weight="0.39954853" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4968112" visible="true" weight="0.3295711" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -464,6 +382,98 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/SpeakerVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="62" column="199" selection-start-line="62" selection-start-column="140" selection-end-line="62" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/AbstractVerticle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/impl/DeploymentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7718">
+          <caret line="498" selection-start-line="498" selection-end-line="498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="29" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/HelloRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/PersonProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/ListenerVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/HelloWorldProto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -480,14 +490,14 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/AbstractVerticle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="493">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.5.0/vertx-core-3.5.0.jar!/io/vertx/core/impl/DeploymentManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="7718">
           <caret line="498" selection-start-line="498" selection-end-line="498" />
         </state>
       </provider>
@@ -496,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -529,39 +532,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/SpeakerVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="867">
           <caret line="62" column="199" selection-start-line="62" selection-start-column="140" selection-end-line="62" selection-end-column="199" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/ListenerVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="2567">
           <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -573,118 +558,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/PersonProto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/vertbuff/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#4298#4299#0" expanded="true" />
-            <element signature="e#4328#4329#0" expanded="true" />
-            <element signature="e#4478#4479#0" expanded="true" />
-            <element signature="e#4503#4504#0" expanded="true" />
-            <element signature="e#4667#4668#0" expanded="true" />
-            <element signature="e#4695#4696#0" expanded="true" />
-            <element signature="e#12397#12398#0" expanded="true" />
-            <element signature="e#12446#12447#0" expanded="true" />
-            <element signature="e#13382#13383#0" expanded="true" />
-            <element signature="e#13486#13487#0" expanded="true" />
-            <element signature="e#14004#14005#0" expanded="true" />
-            <element signature="e#14055#14056#0" expanded="true" />
-            <element signature="e#15666#15667#0" expanded="true" />
-            <element signature="e#15714#15715#0" expanded="true" />
-            <element signature="e#17722#17723#0" expanded="true" />
-            <element signature="e#17751#17752#0" expanded="true" />
-            <element signature="e#18602#18603#0" expanded="true" />
-            <element signature="e#18636#18637#0" expanded="true" />
-            <element signature="e#19126#19127#0" expanded="true" />
-            <element signature="e#19155#19156#0" expanded="true" />
-            <element signature="e#19624#19625#0" expanded="true" />
-            <element signature="e#19656#19657#0" expanded="true" />
-            <element signature="e#22777#22778#0" expanded="true" />
-            <element signature="e#22814#22815#0" expanded="true" />
-            <element signature="e#22900#23270#0" expanded="true" />
-            <element signature="e#23269#23270#0" expanded="true" />
-            <element signature="e#23341#23342#0" expanded="true" />
-            <element signature="e#23368#23369#0" expanded="true" />
-            <element signature="e#23466#23467#0" expanded="true" />
-            <element signature="e#23493#23494#0" expanded="true" />
-            <element signature="e#23581#23582#0" expanded="true" />
-            <element signature="e#23618#23619#0" expanded="true" />
-            <element signature="e#24509#24510#0" expanded="true" />
-            <element signature="e#24537#24538#0" expanded="true" />
-            <element signature="e#24740#24741#0" expanded="true" />
-            <element signature="e#24779#24780#0" expanded="true" />
-            <element signature="e#26392#26393#0" expanded="true" />
-            <element signature="e#26494#26495#0" expanded="true" />
-            <element signature="e#27075#27076#0" expanded="true" />
-            <element signature="e#27107#27108#0" expanded="true" />
-            <element signature="e#27251#27252#0" expanded="true" />
-            <element signature="e#27274#27275#0" expanded="true" />
-            <element signature="e#27462#27463#0" expanded="true" />
-            <element signature="e#27496#27497#0" expanded="true" />
-            <element signature="e#33694#33695#0" expanded="true" />
-            <element signature="e#33743#33744#0" expanded="true" />
-            <element signature="e#34687#34688#0" expanded="true" />
-            <element signature="e#34793#34794#0" expanded="true" />
-            <element signature="e#35319#35320#0" expanded="true" />
-            <element signature="e#35370#35371#0" expanded="true" />
-            <element signature="e#36934#36935#0" expanded="true" />
-            <element signature="e#36982#36983#0" expanded="true" />
-            <element signature="e#38880#38881#0" expanded="true" />
-            <element signature="e#38909#38910#0" expanded="true" />
-            <element signature="e#39770#39771#0" expanded="true" />
-            <element signature="e#39806#39807#0" expanded="true" />
-            <element signature="e#40304#40305#0" expanded="true" />
-            <element signature="e#40331#40332#0" expanded="true" />
-            <element signature="e#40807#40808#0" expanded="true" />
-            <element signature="e#40845#40846#0" expanded="true" />
-            <element signature="e#42038#42039#0" expanded="true" />
-            <element signature="e#42075#42076#0" expanded="true" />
-            <element signature="e#42163#42539#0" expanded="true" />
-            <element signature="e#42538#42539#0" expanded="true" />
-            <element signature="e#42612#42613#0" expanded="true" />
-            <element signature="e#42639#42640#0" expanded="true" />
-            <element signature="e#42739#42740#0" expanded="true" />
-            <element signature="e#42766#42767#0" expanded="true" />
-            <element signature="e#42856#42857#0" expanded="true" />
-            <element signature="e#42893#42894#0" expanded="true" />
-            <element signature="e#44604#44605#0" expanded="true" />
-            <element signature="e#44632#44633#0" expanded="true" />
-            <element signature="e#44669#44670#0" expanded="true" />
-            <element signature="e#44694#44695#0" expanded="true" />
-            <element signature="e#44797#44798#0" expanded="true" />
-            <element signature="e#44836#44837#0" expanded="true" />
-            <element signature="e#48386#48387#0" expanded="true" />
-            <element signature="e#48422#48423#0" expanded="true" />
-            <element signature="e#48578#48579#0" expanded="true" />
-            <element signature="e#48619#48620#0" expanded="true" />
-            <element signature="e#48897#48898#0" expanded="true" />
-            <element signature="e#48932#48933#0" expanded="true" />
-            <element signature="e#49201#49202#0" expanded="true" />
-            <element signature="e#49228#49229#0" expanded="true" />
-            <element signature="e#49402#49403#0" expanded="true" />
-            <element signature="e#49437#49438#0" expanded="true" />
-            <element signature="e#50329#50330#0" expanded="true" />
-            <element signature="e#50364#50365#0" expanded="true" />
-            <element signature="e#58038#58039#0" expanded="true" />
-            <element signature="e#58087#58088#0" expanded="true" />
-            <element signature="e#59717#59718#0" expanded="true" />
-            <element signature="e#59768#59769#0" expanded="true" />
-            <element signature="e#61753#61754#0" expanded="true" />
-            <element signature="e#61801#61802#0" expanded="true" />
-            <element signature="e#63882#63883#0" expanded="true" />
-            <element signature="e#63911#63912#0" expanded="true" />
-            <element signature="e#65088#65089#0" expanded="true" />
-            <element signature="e#65119#65120#0" expanded="true" />
-            <element signature="e#65849#65850#0" expanded="true" />
-            <element signature="e#65888#65889#0" expanded="true" />
-            <element signature="e#70985#70986#0" expanded="true" />
-            <element signature="e#71024#71025#0" expanded="true" />
-            <element signature="e#76815#77209#0" expanded="true" />
-            <element signature="e#77208#77209#0" expanded="true" />
-            <element signature="e#77288#77289#0" expanded="true" />
-            <element signature="e#77315#77316#0" expanded="true" />
-            <element signature="e#77421#77422#0" expanded="true" />
-            <element signature="e#77448#77449#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>

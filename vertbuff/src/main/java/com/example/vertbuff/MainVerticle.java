@@ -3,11 +3,28 @@ package com.example.vertbuff;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
+import io.vertx.config.ConfigRetriever;
+import io.vertx.core.Future;
+import io.vertx.core.json.JsonObject;
 
 public class MainVerticle extends AbstractVerticle {
 
   @Override
   public void start() throws Exception {
+
+	  ConfigRetriever retriever = ConfigRetriever.create(vertx);
+
+	  retriever.getConfig(ar -> {
+          if (ar.failed()) {
+              System.out.println("Failed to retrieve the configuration.");
+          } else {
+
+          	JsonObject config = ar.result();
+              System.out.println("CONFIG-->" + config.toString());
+			  System.out.println("CONFIG--> arnon:" + config.getString("arnon"));
+          }
+      });
+
 
 	  System.out.println("*****MainVerticle verticle started*****");
 	   SpeakerVerticle speakerVerticle = new SpeakerVerticle();
