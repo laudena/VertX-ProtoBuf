@@ -3,14 +3,20 @@
 "verticles":[
 	{
 		"className": "com.example.vertbuff.SpeakerVerticle",
-		"publishing-list": [
+		"publication-list": [
+			"comm-feed",
 			"flowers.report",
 			"baskets.main"
+		],
+		"subscription-list": [
+			"roses.grower",
+			"lilies.grower"
 		]
 	},
 	{
 		"className": "com.example.vertbuff.ListenerVerticle",
-		"publishing-list": [
+		"subscription-list": [
+			"comm-feed",
 			"roses.grower",
 			"lilies.grower"
 		]

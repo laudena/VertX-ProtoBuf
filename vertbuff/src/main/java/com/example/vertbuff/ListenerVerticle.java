@@ -3,6 +3,7 @@ package com.example.vertbuff;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
+import com.sun.media.jfxmedia.logging.Logger;
 import io.netty.util.internal.shaded.org.jctools.queues.MessagePassingQueue.Consumer;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
@@ -35,6 +36,15 @@ public class ListenerVerticle extends AbstractVerticle {
   public void start() throws Exception {
 
 	  System.out.println("ListenerVerticle verticle started !!!!!!");
+      System.out.println("ListenerVerticle verticle configuration: " + config());
+
+
+      //todo: define log configuration file, and add appender for writing logs to file
+      io.vertx.core.logging.Logger logger = io.vertx.core.logging.LoggerFactory.getLogger("GeneralLog");
+      logger.info("something happened");
+      //logger.error("oops!", exception);
+
+
 
 	  String verticleID = "listener1";
 
@@ -111,6 +121,7 @@ public class ListenerVerticle extends AbstractVerticle {
               ByteString reserilaizedCommSrt = ByteString.copyFromUtf8(message.body().toString());
               System.out.println(String.format("[Listener-Comm-Message], convert from string,   Rx  : %s", reserilaizedCommSrt));
               deserializeComm(reserilaizedCommSrt);
+              Logger.logMsg(1, "This is a test message for loggin");
               //System.out.println(String.format("[Message], Deserialize back to object : id:%s age:%s, height:%s, class:%s", newPersonObj.get_person_id(), newPersonObj.get_age(), newPersonObj.get_height(), newPersonObj.get_classification()));
 
 

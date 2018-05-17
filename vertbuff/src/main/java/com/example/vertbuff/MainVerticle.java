@@ -19,7 +19,6 @@ public class MainVerticle extends AbstractVerticle {
 		//InstantiateManually();
 		InstantiateFromConfig(retriever);
 
-
 		//multiple deployment
 //	  DeploymentOptions options = new DeploymentOptions().setInstances(1);
 //	  vertx.deployVerticle("com.example.vertbuff.ListenerVerticle", options);
@@ -79,10 +78,11 @@ public class MainVerticle extends AbstractVerticle {
 				}
 
 				verticles.forEach(verticle ->{
-						//full class name
+
 					System.out.println("In verticle:" +verticle.toString());
 					String verticleClassName = ((JsonObject) verticle).getString("className");
-					vertx.deployVerticle(verticleClassName );
+					DeploymentOptions options = new DeploymentOptions().setConfig((JsonObject) verticle);
+					vertx.deployVerticle(verticleClassName, options );
 				});
 				System.out.println("CONFIG-->" + config.toString());
 

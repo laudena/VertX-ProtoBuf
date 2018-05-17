@@ -26,10 +26,10 @@ public class SpeakerVerticle  extends AbstractVerticle {
 
 //		  try{
 
-
-
 		  String verticleID = "SpeakerVerticle";
 		  System.out.println("SpeakerVerticle verticle started !!!!!!");
+		  System.out.println("SpeakerVerticle verticle configuration: " + config());
+
 		  EventBus eb = vertx.eventBus();
 
 
