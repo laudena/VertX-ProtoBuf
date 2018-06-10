@@ -25,24 +25,24 @@ public class MainVerticle extends AbstractVerticle {
 
 		String verticleID = "Main1";
 
-//	    	  VertxOptions  options = new VertxOptions().setClustered(true);
-//	    	  Consumer<Vertx> runner = vertx -> {
-//	    	      try {
-//	    	          vertx.deployVerticle(verticleID);
-//	    	      } catch (Throwable t) {
-//	    	        t.printStackTrace();
-//	    	      }
-//	    	    };
-//	    	    if (options.isClustered()) {
-//	    	      Vertx.clusteredVertx(options, res -> {
-//	    	        if (res.succeeded()) {
-//	    	          Vertx vertx = res.result();
-//	    	          runner.accept(vertx);
-//	    	        } else {
-//	    	          res.cause().printStackTrace();
-//	    	        }
-//	    	      });
-//	    	    }
+	    	  VertxOptions  options = new VertxOptions().setClustered(true);
+	    	  Consumer<Vertx> runner = vertx -> {
+	    	      try {
+	    	          vertx.deployVerticle(verticleID);
+	    	      } catch (Throwable t) {
+	    	        t.printStackTrace();
+	    	      }
+	    	    };
+	    	    if (options.isClustered()) {
+	    	      Vertx.clusteredVertx(options, res -> {
+	    	        if (res.succeeded()) {
+	    	          Vertx vertx = res.result();
+	    	          runner.accept(vertx);
+	    	        } else {
+	    	          res.cause().printStackTrace();
+	    	        }
+	    	      });
+	    	    }
 
 
 		System.out.println("Main Completed 'Start'");

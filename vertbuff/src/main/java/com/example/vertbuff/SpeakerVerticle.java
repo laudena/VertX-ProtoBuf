@@ -63,6 +63,13 @@ public class SpeakerVerticle  extends AbstractVerticle {
 		  System.out.println(String.format("[Speaker=>Communication Message], sent location object within comm	: id: %s, x: %s, type: %s", loc.get_Location_id(), loc.get_x(), loc.get_Location_type()));
 
 
+		  //sending locationdata inside communication message, without converting to text. keeping the byte array on the line;
+		  Location loc2 = new com.example.vertbuff.Location(20, 12345, 99);
+		  com.example.vertbuff.PersonProto.CommunicationMessage commMsgLocation2 = getCommunicationMessage(loc2);
+		  eb.publish( "comm-feed-byte-array",  commMsgLocation2.toByteArray());
+		  System.out.println(String.format("[Speaker=>Communication Message], sent location object within comm	: id: %s, x: %s, type: %s", loc.get_Location_id(), loc.get_x(), loc.get_Location_type()));
+
+
 //          }
 //		  catch(InvalidProtocolBufferException ioe){
 //    		System.out.println("ERROR: " + ioe.toString());
