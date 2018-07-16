@@ -1,4 +1,4 @@
-# Vert.x-ProtoBuf
+# Vert.x - ProtoBuf
 Testing protocol buffers with VertX [JAVA]
 
 __Vert.x__ is a tool-kit for building reactive applications on the JVM.
